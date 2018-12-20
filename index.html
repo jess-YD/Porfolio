@@ -1,15 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Jessica Diego's Portfolio</title>
 </head>
+
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navStyle">
+    <a class="navbar-brand" href="#">JD</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" id="nav-content">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- jumbotron -->
+  <section id="intro" class="intro">
+  <div  class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 id="sky" class="display-4">Jessica Diego</h1>
+      <p  id="sky1"class="lead">JavaScript Developer</p>
+    </div>
+  </div>
+</section>
+
+  <!-- about me -->
+  <div id="about">
+    <div class="row">
+    <div class="col-12">
+      <h2 id=about class="aboutHeader">About Me</h2>
+      <div>
+
+      </div>
+      <p class="info" id="aboutInfo"> I am currently a student at <a href="https://www.elevenfifty.org">Eleven Fifty Academy</a>
+        thriving to become a web developer. I aspired to study policy analysis and minor in management for my
+        undergrad. It all went so well until I had to come back home for personal family reasons. In my mind I knew
+        that if I did not attend college, I would never be happy in life because it was a personal fulfillment for me.
+        Putting my education on hold, I worked my way up in the service industry. After 7 amazing years in the
+        hotel/tourism and restaurant industry, I wanted to further my skills and challenge
+        myself to overcome now bigger obstacles, since I managed to go beyond my daily duties and talents in my
+        previous workforce. Coding was introduced to me by a friend who is currently attending Eleven Fifty and is very
+        much passionate about becoming apart of the tech world. Doing something out of my comfort zone is definitely a
+        challenge, but knowing that it has an immense support group and numerous of opportunities, I was intrigued to become a
+        junior web developer. Of only being here for a couple of weeks, I have truly stretched my mind to learn and
+        flourish one step at a time. Nights have been restless and dreams have been about coding, but it's exciting and
+        effortful knowing that it means something, which is you never stop learning. Furthermore, becoming apart of the coding world would be
+        invigorating in which I would be proud of being in. Hello, Coding World.
+      </p>
+    </div>
+    </div>
+  </div>
+  </div>
+  <!-- Portfolio -->
+  <div id="portfolio">
+    <h2>Portfolio</h2>
+    <a href="https://codepen.io/jess-yd/pen/zMXWZW" title="Penguin">
+      <div class="portfolio-image-wrap"> <h5>
+        Creature
+      </h5>
+          <img class="imgportfolio" src="./assets/img/Screen Shot 2018-12-16 at 10.35.43 PM.png" alt="">
+      </div>
+  </a>
+  <a href="http://127.0.0.1:5500/Projects/Web%20Tutorial/index.html#functions" title="Web Tutorial">
+    <div class="portfolio-image-wrap1"> <h5>
+      Web Tutorial
+    </h5>
+        <img class="imgportfolio" src="./assets/img/Web Tutorial.png" alt="">
+    </div>
+</a>    
+<a href="http://127.0.0.1:5500/Projects/API%20Project%202/index.html" title="API">
+  <div class="portfolio-image-wrap2"> <h5>
+    API
+  </h5>
+  <img class="imgportfolio" src="./assets/img/API.png" alt="">
+</div>
+</a>
+</div>
+
+  <!--Skills/Badges-->
+  <div id="skills">
+    <h2>Skills</h2>
+    <section class="row1">
+        <span style="margin-right: 2.25rem; font-size: 50pt" class="fab fa-js-square"></span>
+        <span style="margin-right: 2.25rem; font-size: 50pt" class="fab fa-html5"></span>  
+        <span style="margin-right: 2.25rem; font-size: 50pt" class="fab fa-css3-alt"></span>  
+        <span style="margin-right: 2.25rem; font-size: 50pt" class="fab fa-git"></span>  
+        <span style="margin-right: 2.25rem; font-size: 50pt" class="fab fa-github"></span> 
+        <span style="margin-right: 2.25rem; font-size: 50pt" class="fab fa-slack"></span>  
+        
+        <p6>For More Info Please Check My <a href="https://docs.google.com/document/d/12cF063SqBxMx_YVM0MSseuq1hcR9qlKnyMXuI1wSGPE/edit#">Resume</a></p6>
+      
+    </section>
+  </div>
+  
+  
+
+  
+  
+  <!--formspree-->
+  <section class='grid-container'>
+
+    <section id="contact" >
+      <div class="container">
+        <h2 class="text-center text-uppercase" id="contactTitle">Contact Me</h2>
+        <div >   
+          <form action="https://formspree.io/YOUR EMAIL HERE" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                data-validation-required-message="Please enter your name" name="name">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                data-validation-required-message="Please enter your email" name="_replyto">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                data-validation-required-message="Please leave a message" name="message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id ='skills' >
+      <div id="iconRow">
+          <a href="https://www.facebook.com/jessica.diego"><i class="fab fa-facebook-square fa-2x iconWrapper"></i></a>
+          <a href="https://twitter.com/Jessica_Diego26"><i class="fab fa-twitter-square fa-2x iconWrapper"></i></a>
+          <a href="https://github.com/jess-YD"><i class="fab fa-github-square fa-2x iconWrapper"></i></a>
+        <a href="https://www.linkedin.com/in/jessica-diego-a95087105/"><i class="fab fa-linkedin fa-2x iconWrapper"></i></a>
+      </div>
+    </section>
+  </section>
+  
 
 
-    <script src="./js/main.js"></script>
+  
+  <footer>
+    <p1>By Jessica Diego</p1>
+    <p2> &copy; ElevenFifty Academy</p2>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+  <script src="./js/main.js"></script>
 </body>
+
 </html>

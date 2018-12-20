@@ -1,0 +1,25 @@
+form {
+    margin-top: -2.6rem;
+    width: 25rem;
+
+}
+#iconRow {
+    margin-right: 13rem;
+    margin-top: 0rem;
+    font-size: 3rem;
+}
+.iconWrapper {
+    /* margin-right: 1vw; */
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto; 
+}
+#contactTitle {
+    position: relative;
+    left: 25rem;
+    margin-bottom: 4rem;
+
+}

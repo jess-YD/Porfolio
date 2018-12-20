@@ -1,6 +1,23 @@
 .jumbotron {
-    background: url('https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=76ae2034864198c0b4daf6117ba25e72&auto=format&fit=crop&w=500&q=60') no-repeat center;
-background-size: cover;
-color: white;
+background: url('http://www.worldpropertyjournal.com/news-assets/Singapore-skyline---Marina-Bay-2016-keyimage.jpg') no-repeat center;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+min-height: 66em;
+color: rgb(243, 240, 240);
 text-align: center;
+}
+#sky{
+    font-size: 11.5rem;
+    margin-bottom: 10.5rem;
+    margin-top: 7.5rem;
+    margin-right: 0.6rem;
+    
+    
+}
+#sky1{
+    font-size: 2.5rem;
+    margin-bottom: 7.6rem;
+    margin-top: -4.7rem;
 }

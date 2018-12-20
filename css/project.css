@@ -1,0 +1,48 @@
+#portfolio{
+    margin-left: 36rem;
+    padding-bottom: 10rem;
+    padding-top: 4rem;
+}
+.imgportfolio{
+   width: 200px; 
+   height: 113px;
+}
+.portfolio-image-wrap{
+    margin-left: -16.5rem;
+}
+.portfolio-image-wrap1{
+    margin-top: -9rem;
+    margin-left: -2rem;
+    
+}
+
+#skills{
+    margin-left:36rem;
+    padding-bottom: 10rem;
+    padding-top: 4rem;
+    margin-bottom: 4.5rem;
+}
+
+.portfolio-image-wrap2{
+    margin-top: -9rem;
+    margin-left: 13rem;
+}
+
+
+
+.row1 {
+    margin-right: 35rem;
+    width: 300px;
+    margin-left: -4.5rem;
+    margin-top: -2rem;
+}
+
+h2 {
+    margin-bottom: 5.5rem;
+}
+
+
+/*.portfolioHeader {
+    margin-bottom: 3rem;
+}*/
+}
